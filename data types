@@ -1,0 +1,70 @@
+DATA TYPES:
+	Java is a dynamic type language
+Two types:
+1.	Primitive data type
+2.	Non – primitive data type
+	To check the data type- typeof
+	Primitive data type: predefined : we can store single values
+•	Numbers: Integer ,floats
+•	Example:1,-1,-4.5,5.5
+•	String: stream pf characters enclosed in quotes---single ,double ,backtick quotes ;
+•	backtick quotes
+•	Boolean :true or false
+•	Null: empty value or null value
+•	Undefined: --declared variable with no value
+Numbers:
+ let a=3.5
+    let b=3.5
+    console.log("hi + a+b")
+    console.log( 'hi +$(a+b)')
+    document.write(typeof(a))
+    document.write(typeof(b))
+       
+
+output: numbernumber
+
+string:
+
+let a ="sravan"
+   let b ="nani"
+   let age = 30
+   let  greeting =`i am  ${a+b},my age is ${age} years old`
+   console.log(greeting)
+output: i am  sravannani,my age is 30 years old
+
+
+  // let a='-3.5'
+   // let b=-3.5
+   //console.log(typeof(a))
+   //console.log(typeof(b))
+    //document.write(typeof(a))
+    //"<br>"
+    //document.write(typeof(b))
+
+    //let a=3.5
+    //let b=3.5
+   // console.log("hi + a+b")
+    //console.log( 'hi +$(a+b)')
+    //document.write(typeof(a))
+   // document.write(typeof(b))
+
+
+    //let a=3.5
+    //let b=3.5
+    //console.log("hi + a+b")
+   // document.write(typeof("hi + a+b","<br>"))
+   // console.log( 'hi +a+b')
+    
+  // document.write(typeof('hi + a+b','<br>'))
+   //console .log('hi +$(a+b)')
+   //document.write('hi +$(a+b)','<br>')
+   
+//string
+   let a ="sravan"
+   let b ="nani"
+   let age = 30
+   let  greeting =`i am  ${a+b},my age is ${age} years old`
+   console.log(greeting)
+       
+
+
