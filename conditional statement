@@ -1,0 +1,122 @@
+Conditional Statements: 
+To make the set of instruction execute only when the given condition is True
+used  to declare whether the code has to be executed  or skip based on the given condition
+Line - line (sequence)
+Condition: An expression that evaluates an result (True or False)
+Ex:console.log(5>6)
+Block of code: set of instruction . it will execute when the specific condition is True.
+Methods
+If
+If: only one possible condition: 
+If the condition is true it will execute other wise it skip
+Syntax: 
+if(condition){
+---block of code
+}
+Example:
+let a= 4
+       let b=5
+       if(a<b){
+        document.write("hello sravan")
+       }
+Output: hello sravan
+ let a= 4
+       let b=5
+       if(a<b){
+        document.write("hello sravan","<br>")
+       }
+       document.write("brilliant nani")
+Output:hello sravan
+            brilliant nani
+Condition:false
+
+       let a= 4
+       let b=5
+       if(a>b){
+        document.write("hello sravan","<br>")
+       }
+       document.write("brilliant nani")
+       
+Output: brilliant nani
+
+If-else
+let a=4
+       let b=5
+       if(a>b){
+        document.write("hello sravan","<br>")
+       } else{
+        document.write("hi chiru","<br>")
+       }
+       document.write("brilliant chiru")
+Output:
+hi chiru
+brilliant chiru
+
+let age=prompt("Enter your Age?")
+       let name=prompt("Enter your Name?")
+       if(age<18){
+        alert(name+"you are too young to marry")
+
+       }else if(age>35){
+         alert(name+"you are too old to marry")
+       } else{
+        alert(name+"perfect age to marry")
+       }
+       alert("welcome to my world")
+
+       let a=prompt("enter a score")
+       let b=prompt("enter b score")
+       let c=a+b
+       if((a>300 || b>300)&& (c<500)){
+        alert("can team up")
+
+       }else{
+        alert("cannot team up")
+       }
+
+Switch
+Ternary operator
+
+
+
+//conditional statements
+
+       //let a= 4
+       //let b=5
+       //if(a>b){
+        //document.write("hello sravan","<br>")
+       //}
+       //document.write("brilliant nani")
+       
+       
+       //let a=4
+       //let b=5
+       //if(a>b){
+        //document.write("hello sravan","<br>")
+       //} else{
+        //document.write("hi chiru","<br>")
+       //}
+       //document.write("brilliant chiru")
+
+       //let age=prompt("Enter your Age?")
+       //let name=prompt("Enter your Name?")
+       //if(age<18){
+        //alert(name+"you are too young to marry")
+
+       //}else if(age>35){
+         //alert(name+"you are too old to marry")
+       //} else{
+        //alert(name+"perfect age to marry")
+       //}
+       //alert("welcome to my world")
+
+      // let a=prompt("enter a score")
+       //let b=prompt("enter b score")
+      // let c=a+b
+       //if((a>300 || b>300)&& (c<500)){
+        //alert("can team up")
+
+      // }else{
+        //alert("cannot team up")
+      // }
+       
